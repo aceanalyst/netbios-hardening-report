@@ -53,4 +53,9 @@ Result
 | ✅ Blocked NetBIOS Enumeration  | Prevented access to host shares & info    |
 | ✅ Hardened Windows Workstation | Safer in both public and private networks |
 
+## 📷 Screenshots
+
+**After NetBIOS was disabled (Port 139 closed):**
+
+![After Scan](after-nmap-scan.png)
 
