@@ -57,5 +57,14 @@ Result
 
 **After NetBIOS was disabled (Port 139 closed):**
 
-![image](https://github.com/user-attachments/assets/772643fe-79f2-4cb0-80cc-0c115b9ba40c)
+![After Scan](after-scan.png)![after-scan](https://github.com/user-attachments/assets/e374cb49-001b-4d8c-848e-6d3222d6dcc2)
+
+
+
+📚 Keywords
+NetBIOS Port 139 Windows Security Nmap Network Hardening Cybersecurity Portfolio
+
+✅ Status
+Secured and Verified
+
 
