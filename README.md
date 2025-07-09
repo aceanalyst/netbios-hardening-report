@@ -57,5 +57,5 @@ Result
 
 **After NetBIOS was disabled (Port 139 closed):**
 
-![After Scan](Screenshot%202025-07-08%20180108.png)
+![After Scan](after-scan.png)
 
