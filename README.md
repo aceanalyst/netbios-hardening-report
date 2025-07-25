@@ -23,28 +23,25 @@ A full TCP SYN scan showed Port 139 (`netbios-ssn`) in the open state:
 nmap -sS -sV -Pn 172.20.10.12
 ```
 Result
-
+```
 139/tcp open netbios-ssn
-
+```
 🛠️ Action Taken
-Opened ncpa.cpl (Network Connections)
 
-Adapter properties → Internet Protocol Version 4 (TCP/IPv4)
-
-Advanced → WINS tab
-
-Set to “Disable NetBIOS over TCP/IP”
-
-Applied changes and restarted the PC
+1. Opened ncpa.cpl (Network Connections)
+2. Adapter properties → Internet Protocol Version 4 (TCP/IPv4)
+3. Advanced → WINS tab
+4. Set to “Disable NetBIOS over TCP/IP”
+5. Applied changes and restarted the PC
 
 🔁 Verification Scan
-
+```
 nmap -Pn -p 139 172.20.10.12
-
+```
 Result
-
+```
 139/tcp closed netbios-ssn
-
+```
 🛡️ Security Impact
 
 | Benefit                        | Description                               |
