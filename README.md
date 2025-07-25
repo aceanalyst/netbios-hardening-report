@@ -19,9 +19,9 @@ To improve system security by disabling NetBIOS over TCP/IP and verifying that P
 
 A full TCP SYN scan showed Port 139 (`netbios-ssn`) in the open state:
 
-```bash
+```
 nmap -sS -sV -Pn 172.20.10.12
-
+```
 Result
 
 139/tcp open netbios-ssn
